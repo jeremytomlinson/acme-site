@@ -1,5 +1,5 @@
 {
-  "name": "tmp-cpa",
+  "name": "@fathym-it/acme-site",
   "version": "0.1.2",
   "private": true,
   "scripts": {
