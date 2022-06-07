@@ -87,6 +87,7 @@ function PlasmicHomepage__RenderFunc(props: {
   const { variants, overrides, forNode } = props;
   const args = Object.assign({}, defaultHomepage__Args, props.args);
   const $props = args;
+  const $ctx = ph.useDataEnv?.() || {};
 
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsoMqiIai6El4Wl1()
@@ -292,6 +293,49 @@ function PlasmicHomepage__RenderFunc(props: {
                             className={classNames(
                               projectcss.all,
                               sty.svg___7Ehlt
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+                      </p.Stack>
+
+                      <p.Stack
+                        as={p.PlasmicLink}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.link__prkOh
+                        )}
+                        component={Link}
+                        href={"/shop" as const}
+                        platform={"nextjs"}
+                      >
+                        {false ? (
+                          <IconIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__eePjK
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__yj7G
+                          )}
+                        >
+                          {"SHOP"}
+                        </div>
+
+                        {false ? (
+                          <IconIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__wHGt
                             )}
                             role={"img"}
                           />
