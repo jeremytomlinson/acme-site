@@ -288,54 +288,54 @@ function PlasmicDigital__RenderFunc(props: {
                           {"DIGITAL"}
                         </div>
 
-                        <p.Stack
-                          as={p.PlasmicLink}
-                          hasGap={true}
-                          className={classNames(
-                            projectcss.all,
-                            projectcss.a,
-                            sty.link__pdiyi
-                          )}
-                          component={Link}
-                          href={"/shop" as const}
-                          platform={"nextjs"}
-                        >
-                          {false ? (
-                            <IconIcon
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg__but2O
-                              )}
-                              role={"img"}
-                            />
-                          ) : null}
-
-                          <div
-                            className={classNames(
-                              projectcss.all,
-                              projectcss.__wab_text,
-                              sty.text__bfDcn
-                            )}
-                          >
-                            {"SHOP"}
-                          </div>
-
-                          {false ? (
-                            <IconIcon
-                              className={classNames(
-                                projectcss.all,
-                                sty.svg__c3KK2
-                              )}
-                              role={"img"}
-                            />
-                          ) : null}
-                        </p.Stack>
-
                         {false ? (
                           <IconIcon
                             className={classNames(
                               projectcss.all,
                               sty.svg__vA0U0
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+                      </p.Stack>
+
+                      <p.Stack
+                        as={p.PlasmicLink}
+                        hasGap={true}
+                        className={classNames(
+                          projectcss.all,
+                          projectcss.a,
+                          sty.link__pdiyi
+                        )}
+                        component={Link}
+                        href={"/shop" as const}
+                        platform={"nextjs"}
+                      >
+                        {false ? (
+                          <IconIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__but2O
+                            )}
+                            role={"img"}
+                          />
+                        ) : null}
+
+                        <div
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.__wab_text,
+                            sty.text__bfDcn
+                          )}
+                        >
+                          {"SHOP"}
+                        </div>
+
+                        {false ? (
+                          <IconIcon
+                            className={classNames(
+                              projectcss.all,
+                              sty.svg__c3KK2
                             )}
                             role={"img"}
                           />
