@@ -7,7 +7,7 @@
   },
   "style": {
     "scheme": "css-modules",
-    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.module.css"
   },
   "images": {
     "scheme": "public-files",
@@ -225,6 +225,6 @@
   "nextjsConfig": {
     "pagesDir": "../pages"
   },
-  "cliVersion": "0.1.178",
-  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.178/dist/plasmic.schema.json"
+  "cliVersion": "0.1.180",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.180/dist/plasmic.schema.json"
 }

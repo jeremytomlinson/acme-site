@@ -87,6 +87,7 @@ function PlasmicBrand__RenderFunc(props: {
   const { variants, overrides, forNode } = props;
   const args = Object.assign({}, defaultBrand__Args, props.args);
   const $props = args;
+  const $ctx = ph.useDataEnv?.() || {};
 
   const globalVariants = ensureGlobalVariants({
     screen: useScreenVariantsoMqiIai6El4Wl1()
@@ -286,6 +287,49 @@ function PlasmicBrand__RenderFunc(props: {
                         >
                           {"DIGITAL"}
                         </div>
+
+                        <p.Stack
+                          as={p.PlasmicLink}
+                          hasGap={true}
+                          className={classNames(
+                            projectcss.all,
+                            projectcss.a,
+                            sty.link___2VJiR
+                          )}
+                          component={Link}
+                          href={"/shop" as const}
+                          platform={"nextjs"}
+                        >
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__otF4Z
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+
+                          <div
+                            className={classNames(
+                              projectcss.all,
+                              projectcss.__wab_text,
+                              sty.text___53REk
+                            )}
+                          >
+                            {"SHOP"}
+                          </div>
+
+                          {false ? (
+                            <IconIcon
+                              className={classNames(
+                                projectcss.all,
+                                sty.svg__ta85V
+                              )}
+                              role={"img"}
+                            />
+                          ) : null}
+                        </p.Stack>
 
                         {false ? (
                           <IconIcon
